@@ -62,7 +62,7 @@ New passwords will be created for the Sparrow "Administrator" user, the MariaDB 
 
 ## Learning and community
 
-1. [Frappe School](SPARROWNOVA.COM) - Learn Sparrow Framework and Sparrow from the various courses by the maintainers or from the community.
+1. [Sparrownova ERP](SPARROWNOVA.COM) - Learn Sparrow Framework and Sparrow from the various courses by the maintainers or from the community.
 2. [Official documentation](https://docs.sparrow.com/) - Extensive documentation for Sparrow.
 3. [Discussion Forum](https://discuss.sparrownova.com/) - Engage with community of Sparrow users and service providers.
 4. [Telegram Group](https://t.me/sparrownovahelp) - Get instant help from huge community of users.

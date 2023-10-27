@@ -10,8 +10,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/accounts/doctype/bank/bank.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/doctype/bank/bank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/financial_statements/financial_statements.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/financial_statements/financial_statements.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/buying/onboarding_step/create_your_first_purchase_order/create_your_first_purchase_order.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/buying/onboarding_step/create_your_first_purchase_order/create_your_first_purchase_order.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/manufacturing/onboarding_step/explore_manufacturing_settings/explore_manufacturing_settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/manufacturing/onboarding_step/explore_manufacturing_settings/explore_manufacturing_settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/patches/v13_0/custom_fields_for_taxjar_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/patches/v13_0/custom_fields_for_taxjar_integration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/setup/onboarding_step/company_set_up/company_set_up.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/setup/onboarding_step/company_set_up/company_set_up.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/setup/onboarding_step/data_import/data_import.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/setup/onboarding_step/data_import/data_import.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/mpesa_settings/mpesa_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/mpesa_settings/mpesa_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.py" afterDir="false" />
@@ -21,6 +27,10 @@
       <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/exotel_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/exotel_integration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/stock/onboarding_step/create_a_warehouse/create_a_warehouse.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/stock/onboarding_step/create_a_warehouse/create_a_warehouse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/stock/onboarding_step/stock_settings/stock_settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/stock/onboarding_step/stock_settings/stock_settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/stock/onboarding_step/view_warehouses/view_warehouses.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/stock/onboarding_step/view_warehouses/view_warehouses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/templates/includes/footer/footer_powered.html" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/templates/includes/footer/footer_powered.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow/tests/test_exotel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/tests/test_exotel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
