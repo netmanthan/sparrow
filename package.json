@@ -1,0 +1,19 @@
+{
+  "name": "sparrow",
+  "description": "Open Source ERP System powered by the Frappe Framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netmanthan/sparrow.git"
+  },
+  "homepage": "https://sparrownova.com",
+  "author": "Frappe Technologies Pvt. Ltd.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/netmanthan/sparrow/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "html2canvas": "^1.1.4",
+    "onscan.js": "^1.5.2"
+  }
+}

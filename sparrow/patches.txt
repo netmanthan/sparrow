@@ -1,0 +1,346 @@
+[pre_model_sync]
+sparrow.patches.v12_0.update_is_cancelled_field
+sparrow.patches.v11_0.rename_production_order_to_work_order
+sparrow.patches.v13_0.add_bin_unique_constraint
+sparrow.patches.v11_0.refactor_naming_series
+sparrow.patches.v11_0.refactor_autoname_naming
+sparrow.patches.v14_0.change_is_subcontracted_fieldtype
+execute:frappe.reload_doc("accounts", "doctype", "POS Payment Method") #2020-05-28
+sparrow.patches.v4_2.update_requested_and_ordered_qty #2021-03-31
+sparrow.patches.v5_7.update_item_description_based_on_item_master
+sparrow.patches.v4_2.repost_reserved_qty #2021-03-31
+sparrow.patches.v8_1.removed_roles_from_gst_report_non_indian_account #16-08-2018
+sparrow.patches.v10_0.fichier_des_ecritures_comptables_for_france
+sparrow.patches.v10_0.rename_price_to_rate_in_pricing_rule
+sparrow.patches.v10_0.set_currency_in_pricing_rule
+sparrow.patches.v10_0.update_translatable_fields
+execute:frappe.delete_doc('DocType', 'Production Planning Tool', ignore_missing=True)
+sparrow.patches.v10_0.add_default_cash_flow_mappers
+sparrow.patches.v11_0.rename_duplicate_item_code_values
+sparrow.patches.v11_0.make_quality_inspection_template
+sparrow.patches.v11_0.merge_land_unit_with_location
+sparrow.patches.v11_0.add_index_on_nestedset_doctypes
+sparrow.patches.v11_0.remove_modules_setup_page
+sparrow.patches.v11_0.update_department_lft_rgt
+sparrow.patches.v11_0.uom_conversion_data #30-06-2018
+sparrow.patches.v11_0.update_account_type_in_party_type
+sparrow.patches.v11_0.rename_supplier_type_to_supplier_group
+sparrow.patches.v10_1.transfer_subscription_to_auto_repeat
+sparrow.patches.v11_0.update_brand_in_item_price
+sparrow.patches.v11_0.create_default_success_action
+sparrow.patches.v11_0.rebuild_tree_for_company
+sparrow.patches.v11_0.create_department_records_for_each_company
+sparrow.patches.v11_0.make_location_from_warehouse
+sparrow.patches.v11_0.make_asset_finance_book_against_old_entries
+sparrow.patches.v11_0.check_buying_selling_in_currency_exchange
+sparrow.patches.v11_0.move_item_defaults_to_child_table_for_multicompany #02-07-2018 #19-06-2019
+sparrow.patches.v11_0.rename_overproduction_percent_field
+sparrow.patches.v11_0.update_backflush_subcontract_rm_based_on_bom
+sparrow.patches.v11_0.rename_members_with_naming_series #04-06-2018
+sparrow.patches.v11_0.set_update_field_and_value_in_workflow_state
+sparrow.patches.v11_0.update_total_qty_field
+sparrow.patches.v11_0.update_sales_partner_type
+sparrow.patches.v11_0.rename_asset_adjustment_doctype
+sparrow.patches.v11_0.set_user_permissions_for_department
+sparrow.patches.v11_0.hr_ux_cleanups
+sparrow.patches.v11_0.set_department_for_doctypes
+sparrow.patches.v11_0.update_allow_transfer_for_manufacture
+sparrow.patches.v11_0.add_item_group_defaults
+sparrow.patches.v11_0.add_expense_claim_default_account
+sparrow.patches.v11_0.make_job_card
+sparrow.patches.v11_0.add_default_dispatch_notification_template
+sparrow.patches.v11_0.add_market_segments
+sparrow.patches.v11_0.add_sales_stages
+execute:frappe.delete_doc_if_exists("Page", "sales-analytics")
+execute:frappe.delete_doc_if_exists("Page", "purchase-analytics")
+execute:frappe.delete_doc_if_exists("Page", "stock-analytics")
+execute:frappe.delete_doc_if_exists("Page", "production-analytics")
+sparrow.patches.v10_0.item_barcode_childtable_migrate # 16-02-2019
+sparrow.patches.v11_0.update_delivery_trip_status
+sparrow.patches.v11_0.rename_bom_wo_fields
+sparrow.patches.v12_0.set_default_homepage_type
+sparrow.patches.v11_0.renamed_from_to_fields_in_project
+sparrow.patches.v11_1.setup_guardian_role
+execute:frappe.delete_doc('DocType', 'Notification Control')
+sparrow.patches.v11_0.remove_barcodes_field_from_copy_fields_to_variants
+sparrow.patches.v12_0.set_task_status
+sparrow.patches.v11_0.make_italian_localization_fields # 26-03-2019
+sparrow.patches.v12_0.add_item_name_in_work_orders
+sparrow.patches.v12_0.update_pricing_rule_fields
+sparrow.patches.v11_1.make_job_card_time_logs
+sparrow.patches.v12_0.rename_pricing_rule_child_doctypes
+sparrow.patches.v12_0.move_target_distribution_from_parent_to_child
+sparrow.patches.v12_0.stock_entry_enhancements
+sparrow.patches.v10_0.item_barcode_childtable_migrate # 16-02-2019 #25-06-2019
+sparrow.patches.v12_0.make_item_manufacturer
+sparrow.patches.v12_0.move_item_tax_to_item_tax_template
+sparrow.patches.v11_1.set_variant_based_on
+sparrow.patches.v11_1.woocommerce_set_creation_user
+sparrow.patches.v11_1.rename_depends_on_lwp
+execute:frappe.delete_doc("Report", "Inactive Items")
+sparrow.patches.v11_1.delete_scheduling_tool
+sparrow.patches.v12_0.rename_tolerance_fields
+execute:frappe.delete_doc_if_exists("Page", "support-analytics")
+sparrow.patches.v12_0.remove_patient_medical_record_page
+sparrow.patches.v11_1.move_customer_lead_to_dynamic_column
+sparrow.patches.v11_1.set_default_action_for_quality_inspection
+sparrow.patches.v11_1.delete_bom_browser
+sparrow.patches.v11_1.set_missing_title_for_quotation
+sparrow.patches.v11_1.update_bank_transaction_status
+sparrow.patches.v11_1.renamed_delayed_item_report
+sparrow.patches.v11_1.set_missing_opportunity_from
+sparrow.patches.v12_0.set_quotation_status
+sparrow.patches.v12_0.set_priority_for_support
+sparrow.patches.v12_0.delete_priority_property_setter
+sparrow.patches.v12_0.set_default_batch_size
+execute:frappe.delete_doc("DocType", "Project Task")
+sparrow.patches.v11_1.update_default_supplier_in_item_defaults
+sparrow.patches.v12_0.update_due_date_in_gle
+sparrow.patches.v12_0.add_default_buying_selling_terms_in_company
+sparrow.patches.v12_0.create_accounting_dimensions_in_missing_doctypes #2020-05-11
+sparrow.patches.v11_1.set_status_for_material_request_type_manufacture
+sparrow.patches.v12_0.move_plaid_settings_to_doctype
+execute:frappe.reload_doc('desk', 'doctype', 'dashboard_chart_link')
+execute:frappe.reload_doc('desk', 'doctype', 'dashboard')
+execute:frappe.reload_doc('desk', 'doctype', 'dashboard_chart_source')
+execute:frappe.reload_doc('desk', 'doctype', 'dashboard_chart')
+execute:frappe.reload_doc('desk', 'doctype', 'dashboard_chart_field')
+sparrow.patches.v12_0.remove_bank_remittance_custom_fields
+execute:frappe.delete_doc_if_exists("Report", "Loan Repayment")
+sparrow.patches.v12_0.move_credit_limit_to_customer_credit_limit
+sparrow.patches.v12_0.add_variant_of_in_item_attribute_table
+sparrow.patches.v12_0.rename_bank_account_field_in_journal_entry_account
+sparrow.patches.v12_0.create_default_energy_point_rules
+sparrow.patches.v12_0.set_produced_qty_field_in_sales_order_for_work_order
+sparrow.patches.v12_0.set_cwip_and_delete_asset_settings
+sparrow.patches.v12_0.set_expense_account_in_landed_cost_voucher_taxes
+sparrow.patches.v12_0.replace_accounting_with_accounts_in_home_settings
+sparrow.patches.v12_0.set_automatically_process_deferred_accounting_in_accounts_settings
+sparrow.patches.v12_0.set_payment_entry_status
+sparrow.patches.v12_0.update_owner_fields_in_acc_dimension_custom_fields
+sparrow.patches.v12_0.update_price_or_product_discount
+sparrow.patches.v12_0.set_production_capacity_in_workstation
+sparrow.patches.v12_0.set_employee_preferred_emails
+sparrow.patches.v12_0.set_against_blanket_order_in_sales_and_purchase_order
+sparrow.patches.v12_0.set_cost_center_in_child_table_of_expense_claim
+sparrow.patches.v12_0.set_lead_title_field
+sparrow.patches.v12_0.set_permission_einvoicing
+sparrow.patches.v12_0.create_irs_1099_field_united_states
+sparrow.patches.v12_0.move_bank_account_swift_number_to_bank
+sparrow.patches.v12_0.rename_bank_reconciliation
+sparrow.patches.v12_0.rename_bank_reconciliation_fields # 2020-01-22
+sparrow.patches.v12_0.set_purchase_receipt_delivery_note_detail
+sparrow.patches.v12_0.add_permission_in_lower_deduction
+sparrow.patches.v12_0.set_received_qty_in_material_request_as_per_stock_uom
+sparrow.patches.v12_0.rename_account_type_doctype
+sparrow.patches.v12_0.recalculate_requested_qty_in_bin
+sparrow.patches.v12_0.set_total_batch_quantity
+sparrow.patches.v12_0.rename_mws_settings_fields
+sparrow.patches.v12_0.set_updated_purpose_in_pick_list
+sparrow.patches.v12_0.repost_stock_ledger_entries_for_target_warehouse
+sparrow.patches.v12_0.update_end_date_and_status_in_email_campaign
+sparrow.patches.v12_0.fix_quotation_expired_status
+sparrow.patches.v12_0.rename_pos_closing_doctype
+sparrow.patches.v13_0.replace_pos_payment_mode_table #2020-12-29
+execute:frappe.delete_doc_if_exists("Page", "appointment-analytic")
+execute:frappe.rename_doc("Desk Page", "Getting Started", "Home", force=True)
+sparrow.patches.v12_0.unset_customer_supplier_based_on_type_of_item_price
+sparrow.patches.v12_0.set_valid_till_date_in_supplier_quotation
+sparrow.patches.v13_0.update_old_loans
+sparrow.patches.v12_0.set_serial_no_status #2020-05-21
+sparrow.patches.v12_0.update_price_list_currency_in_bom
+execute:frappe.reload_doctype('Dashboard')
+execute:frappe.reload_doc('desk', 'doctype', 'number_card_link')
+execute:frappe.delete_doc_if_exists('Dashboard', 'Accounts')
+sparrow.patches.v13_0.update_actual_start_and_end_date_in_wo
+sparrow.patches.v12_0.update_bom_in_so_mr
+execute:frappe.delete_doc("Report", "Department Analytics")
+execute:frappe.rename_doc("Desk Page", "Loan Management", "Loan", force=True)
+sparrow.patches.v12_0.update_uom_conversion_factor
+sparrow.patches.v13_0.replace_pos_page_with_point_of_sale_page
+sparrow.patches.v13_0.delete_old_purchase_reports
+sparrow.patches.v12_0.set_italian_import_supplier_invoice_permissions
+sparrow.patches.v13_0.update_subscription
+sparrow.patches.v12_0.unhide_cost_center_field
+sparrow.patches.v13_0.update_sla_enhancements
+sparrow.patches.v13_0.update_deferred_settings
+sparrow.patches.v12_0.set_multi_uom_in_rfq
+sparrow.patches.v13_0.delete_old_sales_reports
+execute:frappe.delete_doc_if_exists("DocType", "Bank Reconciliation")
+execute:frappe.reload_doc("regional", "doctype", "e_invoice_settings")
+sparrow.patches.v13_0.loyalty_points_entry_for_pos_invoice #22-07-2020
+sparrow.patches.v12_0.add_taxjar_integration_field
+sparrow.patches.v12_0.fix_percent_complete_for_projects
+sparrow.patches.v13_0.delete_report_requested_items_to_order
+sparrow.patches.v12_0.update_item_tax_template_company
+sparrow.patches.v13_0.move_branch_code_to_bank_account
+sparrow.patches.v13_0.add_standard_navbar_items #2021-03-24
+sparrow.patches.v13_0.stock_entry_enhancements
+sparrow.patches.v12_0.rename_lost_reason_detail
+sparrow.patches.v13_0.drop_razorpay_payload_column
+sparrow.patches.v13_0.rename_issue_doctype_fields
+sparrow.patches.v13_0.change_default_pos_print_format
+sparrow.patches.v13_0.set_youtube_video_id
+sparrow.patches.v13_0.set_app_name
+sparrow.patches.v13_0.print_uom_after_quantity_patch
+sparrow.patches.v13_0.set_payment_channel_in_payment_gateway_account
+execute:frappe.delete_doc("Report", "Quoted Item Comparison")
+sparrow.patches.v13_0.update_member_email_address
+sparrow.patches.v13_0.update_pos_closing_entry_in_merge_log
+sparrow.patches.v13_0.add_po_to_global_search
+sparrow.patches.v13_0.update_returned_qty_in_pr_dn
+execute:frappe.rename_doc("Workspace", "Loan", "Loan Management", ignore_if_exists=True, force=True)
+sparrow.patches.v13_0.create_uae_pos_invoice_fields
+sparrow.patches.v13_0.update_project_template_tasks
+sparrow.patches.v13_0.convert_qi_parameter_to_link_field
+sparrow.patches.v13_0.add_naming_series_to_old_projects # 1-02-2021
+sparrow.patches.v13_0.update_payment_terms_outstanding
+sparrow.patches.v13_0.delete_old_bank_reconciliation_doctypes
+sparrow.patches.v13_0.update_vehicle_no_reqd_condition
+sparrow.patches.v13_0.rename_membership_settings_to_non_profit_settings
+sparrow.patches.v13_0.setup_uae_vat_fields
+execute:frappe.db.set_value('System Settings', None, 'app_name', 'Sparrow')
+sparrow.patches.v12_0.purchase_receipt_status
+sparrow.patches.v13_0.fix_non_unique_represents_company
+sparrow.patches.v12_0.add_document_type_field_for_italy_einvoicing
+sparrow.patches.v13_0.update_shipment_status
+sparrow.patches.v13_0.remove_attribute_field_from_item_variant_setting
+sparrow.patches.v13_0.set_pos_closing_as_failed
+execute:frappe.rename_doc("Workspace", "Loan Management", "Loans", force=True)
+sparrow.patches.v13_0.update_timesheet_changes
+sparrow.patches.v13_0.add_doctype_to_sla #14-06-2021
+sparrow.patches.v13_0.bill_for_rejected_quantity_in_purchase_invoice
+sparrow.patches.v13_0.rename_issue_status_hold_to_on_hold
+sparrow.patches.v13_0.update_response_by_variance
+sparrow.patches.v13_0.update_job_card_details
+sparrow.patches.v13_0.add_missing_fg_item_for_stock_entry
+sparrow.patches.v13_0.update_subscription_status_in_memberships
+sparrow.patches.v13_0.update_amt_in_work_order_required_items
+sparrow.patches.v13_0.delete_orphaned_tables
+sparrow.patches.v13_0.update_tds_check_field #3
+sparrow.patches.v13_0.add_custom_field_for_south_africa #2
+sparrow.patches.v13_0.update_recipient_email_digest
+sparrow.patches.v13_0.shopify_deprecation_warning
+sparrow.patches.v13_0.remove_bad_selling_defaults
+sparrow.patches.v13_0.trim_whitespace_from_serial_nos  # 16-01-2022
+sparrow.patches.v13_0.migrate_stripe_api
+sparrow.patches.v13_0.reset_clearance_date_for_intracompany_payment_entries
+execute:frappe.reload_doc("erpnext_integrations", "doctype", "TaxJar Settings")
+execute:frappe.reload_doc("erpnext_integrations", "doctype", "Product Tax Category")
+sparrow.patches.v13_0.custom_fields_for_taxjar_integration          #08-11-2021
+sparrow.patches.v13_0.set_operation_time_based_on_operating_cost
+sparrow.patches.v13_0.create_gst_payment_entry_fields #27-11-2021
+sparrow.patches.v13_0.fix_invoice_statuses
+sparrow.patches.v13_0.create_website_items #30-09-2021
+sparrow.patches.v13_0.populate_e_commerce_settings
+sparrow.patches.v13_0.make_homepage_products_website_items
+sparrow.patches.v13_0.replace_supplier_item_group_with_party_specific_item
+sparrow.patches.v13_0.update_dates_in_tax_withholding_category
+sparrow.patches.v14_0.update_opportunity_currency_fields
+sparrow.patches.v13_0.create_accounting_dimensions_in_pos_doctypes
+sparrow.patches.v13_0.create_custom_field_for_finance_book
+sparrow.patches.v13_0.modify_invalid_gain_loss_gl_entries #2
+sparrow.patches.v13_0.fix_additional_cost_in_mfg_stock_entry
+sparrow.patches.v13_0.set_status_in_maintenance_schedule_table
+sparrow.patches.v13_0.enable_scheduler_job_for_item_reposting
+sparrow.patches.v13_0.requeue_failed_reposts
+sparrow.patches.v13_0.update_job_card_status
+sparrow.patches.v13_0.enable_uoms
+sparrow.patches.v12_0.update_production_plan_status
+sparrow.patches.v13_0.healthcare_deprecation_warning
+sparrow.patches.v13_0.item_naming_series_not_mandatory
+sparrow.patches.v13_0.update_category_in_ltds_certificate
+sparrow.patches.v13_0.fetch_thumbnail_in_website_items
+sparrow.patches.v13_0.update_maintenance_schedule_field_in_visit
+sparrow.patches.v13_0.create_ksa_vat_custom_fields # 07-01-2022
+sparrow.patches.v14_0.migrate_crm_settings
+sparrow.patches.v13_0.rename_ksa_qr_field
+sparrow.patches.v13_0.wipe_serial_no_field_for_0_qty
+sparrow.patches.v13_0.disable_ksa_print_format_for_others # 16-12-2021
+sparrow.patches.v13_0.agriculture_deprecation_warning
+sparrow.patches.v13_0.hospitality_deprecation_warning
+sparrow.patches.v13_0.update_asset_quantity_field
+sparrow.patches.v13_0.delete_bank_reconciliation_detail
+sparrow.patches.v13_0.enable_provisional_accounting
+sparrow.patches.v13_0.non_profit_deprecation_warning
+sparrow.patches.v13_0.enable_ksa_vat_docs #1
+sparrow.patches.v13_0.show_india_localisation_deprecation_warning
+sparrow.patches.v13_0.show_hr_payroll_deprecation_warning
+sparrow.patches.v13_0.reset_corrupt_defaults
+sparrow.patches.v13_0.create_accounting_dimensions_for_asset_repair
+sparrow.patches.v14_0.update_reference_due_date_in_journal_entry
+sparrow.patches.v14_0.france_depreciation_warning
+
+[post_model_sync]
+execute:frappe.delete_doc_if_exists('Workspace', 'Sparrow Integrations Settings')
+sparrow.patches.v14_0.rename_ongoing_status_in_sla_documents
+sparrow.patches.v14_0.delete_shopify_doctypes
+sparrow.patches.v14_0.delete_healthcare_doctypes
+sparrow.patches.v14_0.delete_hub_doctypes
+sparrow.patches.v14_0.delete_hospitality_doctypes # 20-01-2022
+sparrow.patches.v14_0.delete_agriculture_doctypes # 15-06-2022
+sparrow.patches.v14_0.delete_education_doctypes
+sparrow.patches.v14_0.delete_datev_doctypes
+sparrow.patches.v14_0.rearrange_company_fields
+sparrow.patches.v13_0.update_sane_transfer_against
+sparrow.patches.v14_0.migrate_cost_center_allocations
+sparrow.patches.v13_0.convert_to_website_item_in_item_card_group_template
+sparrow.patches.v13_0.shopping_cart_to_ecommerce
+sparrow.patches.v13_0.update_disbursement_account
+sparrow.patches.v13_0.update_reserved_qty_closed_wo
+sparrow.patches.v13_0.update_exchange_rate_settings
+sparrow.patches.v14_0.delete_amazon_mws_doctype
+sparrow.patches.v13_0.set_work_order_qty_in_so_from_mr
+sparrow.patches.v13_0.update_accounts_in_loan_docs
+sparrow.patches.v13_0.item_reposting_for_incorrect_sl_and_gl
+sparrow.patches.v14_0.update_batch_valuation_flag
+sparrow.patches.v14_0.delete_non_profit_doctypes
+sparrow.patches.v13_0.add_cost_center_in_loans
+sparrow.patches.v13_0.set_return_against_in_pos_invoice_references
+sparrow.patches.v13_0.remove_unknown_links_to_prod_plan_items # 24-03-2022
+sparrow.patches.v13_0.copy_custom_field_filters_to_website_item
+sparrow.patches.v13_0.change_default_item_manufacturer_fieldtype
+sparrow.patches.v13_0.requeue_recoverable_reposts
+sparrow.patches.v14_0.discount_accounting_separation
+sparrow.patches.v13_0.create_accounting_dimensions_in_orders
+sparrow.patches.v13_0.set_per_billed_in_return_delivery_note
+execute:frappe.delete_doc("DocType", "Naming Series")
+sparrow.patches.v13_0.job_card_status_on_hold
+sparrow.patches.v14_0.copy_is_subcontracted_value_to_is_old_subcontracting_flow
+sparrow.patches.v14_0.crm_ux_cleanup
+sparrow.patches.v14_0.migrate_existing_lead_notes_as_per_the_new_format
+sparrow.patches.v14_0.remove_india_localisation # 14-07-2022
+sparrow.patches.v13_0.fix_number_and_frequency_for_monthly_depreciation
+sparrow.patches.v14_0.remove_hr_and_payroll_modules # 20-07-2022
+sparrow.patches.v14_0.fix_crm_no_of_employees
+sparrow.patches.v14_0.create_accounting_dimensions_in_subcontracting_doctypes
+sparrow.patches.v14_0.fix_subcontracting_receipt_gl_entries
+sparrow.patches.v13_0.update_schedule_type_in_loans
+sparrow.patches.v13_0.drop_unused_sle_index_parts
+sparrow.patches.v14_0.create_accounting_dimensions_for_asset_capitalization
+sparrow.patches.v14_0.update_partial_tds_fields
+sparrow.patches.v14_0.create_incoterms_and_migrate_shipment
+sparrow.patches.v14_0.setup_clear_repost_logs
+sparrow.patches.v14_0.create_accounting_dimensions_for_payment_request
+sparrow.patches.v14_0.update_entry_type_for_journal_entry
+sparrow.patches.v14_0.change_autoname_for_tax_withheld_vouchers
+sparrow.patches.v14_0.update_asset_value_for_manual_depr_entries
+sparrow.patches.v14_0.set_pick_list_status
+sparrow.patches.v13_0.update_docs_link
+sparrow.patches.v14_0.enable_all_leads
+execute:frappe.db.set_single_value("Accounts Settings", "merge_similar_account_heads", 0)
+sparrow.patches.v14_0.update_reference_type_in_journal_entry_accounts
+sparrow.patches.v14_0.update_company_in_ldc
+sparrow.patches.v14_0.set_packed_qty_in_draft_delivery_notes
+sparrow.patches.v14_0.cleanup_workspaces
+sparrow.patches.v14_0.enable_allow_existing_serial_no
+sparrow.patches.v14_0.set_report_in_process_SOA
+sparrow.patches.v14_0.create_accounting_dimensions_for_closing_balance
+sparrow.patches.v14_0.update_closing_balances #15-07-2023
+execute:frappe.defaults.clear_default("fiscal_year")
+execute:frappe.db.set_single_value('Selling Settings', 'allow_negative_rates_for_items', 0)
+sparrow.patches.v14_0.correct_asset_value_if_je_with_workflow
+sparrow.patches.v14_0.migrate_deferred_accounts_to_item_defaults
+sparrow.patches.v14_0.create_accounting_dimensions_in_sales_order_item
+# below migration patch should always run last
+sparrow.patches.v14_0.migrate_gl_to_payment_ledger
