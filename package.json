@@ -1,6 +1,6 @@
 {
   "name": "sparrow",
-  "description": "Open Source ERP System powered by the Frappe Framework",
+  "description": "Open Source ERP System powered by the Sparrow Framework",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/netmanthan/sparrow.git"
