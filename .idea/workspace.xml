@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b0504a-4896-4c83-aa42-f46832717871" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/attributions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/accounts/doctype/bank/bank.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/doctype/bank/bank.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/patches/v13_0/custom_fields_for_taxjar_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/patches/v13_0/custom_fields_for_taxjar_integration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/mpesa_settings/mpesa_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/mpesa_settings/mpesa_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/quickbooks_migrator/quickbooks_migrator.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/quickbooks_migrator/quickbooks_migrator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/tally_migration/tally_migration.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/tally_migration/tally_migration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/exotel_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/exotel_integration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/tests/test_exotel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/tests/test_exotel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

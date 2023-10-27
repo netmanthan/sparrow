@@ -59,7 +59,7 @@ class WoocommerceSettings(Document):
 				frappe.throw(_("Please enter API Consumer Secret"))
 
 	def create_webhook_url(self):
-		endpoint = "/api/method/sparrow.erpnext_integrations.connectors.woocommerce_connection.order"
+		endpoint = "/api/method/sparrow.sparrow_integrations.connectors.woocommerce_connection.order"
 
 		try:
 			url = frappe.request.url

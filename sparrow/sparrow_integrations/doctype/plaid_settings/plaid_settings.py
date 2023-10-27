@@ -298,7 +298,7 @@ def enqueue_synchronization():
 
 	for plaid_account in plaid_accounts:
 		frappe.enqueue(
-			"sparrow.erpnext_integrations.doctype.plaid_settings.plaid_settings.sync_transactions",
+			"sparrow.sparrow_integrations.doctype.plaid_settings.plaid_settings.sync_transactions",
 			bank=plaid_account.bank,
 			bank_account=plaid_account.name,
 		)

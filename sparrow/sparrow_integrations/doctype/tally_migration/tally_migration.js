@@ -258,7 +258,7 @@ sparrow.tally_migration.create_new_doc = (document) => {
 	sparrow.tally_migration.resolve(document);
 	return frappe.call({
 		type: "POST",
-		method: 'sparrow.erpnext_integrations.doctype.tally_migration.tally_migration.new_doc',
+		method: 'sparrow.sparrow_integrations.doctype.tally_migration.tally_migration.new_doc',
 		args: {
 			document
 		},

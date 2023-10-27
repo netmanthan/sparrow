@@ -26,7 +26,7 @@ frappe.ui.form.on('Woocommerce Settings', {
 				() => {
 					frappe.call({
 						type:"POST",
-						method:"sparrow.erpnext_integrations.doctype.woocommerce_settings.woocommerce_settings.generate_secret",
+						method:"sparrow.sparrow_integrations.doctype.woocommerce_settings.woocommerce_settings.generate_secret",
 					}).done(() => {
 						frm.reload_doc();
 					}).fail(() => {
@@ -46,7 +46,7 @@ frappe.ui.form.on('Woocommerce Settings', {
 
 frappe.ui.form.on("Woocommerce Settings", "onload", function () {
 	frappe.call({
-		method: "sparrow.erpnext_integrations.doctype.woocommerce_settings.woocommerce_settings.get_series",
+		method: "sparrow.sparrow_integrations.doctype.woocommerce_settings.woocommerce_settings.get_series",
 		callback: function (r) {
 			$.each(r.message, function (key, value) {
 				set_field_options(key, value);

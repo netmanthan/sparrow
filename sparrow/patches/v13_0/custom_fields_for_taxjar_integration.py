@@ -67,6 +67,6 @@ def execute():
 	create_custom_fields(custom_fields, update=True)
 	add_permissions()
 	frappe.enqueue(
-		"sparrow.erpnext_integrations.doctype.taxjar_settings.taxjar_settings.add_product_tax_categories",
+		"sparrow.sparrow_integrations.doctype.taxjar_settings.taxjar_settings.add_product_tax_categories",
 		now=True,
 	)

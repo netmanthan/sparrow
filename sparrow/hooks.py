@@ -336,11 +336,11 @@ doc_events = {
 			"sparrow.regional.create_transaction_log",
 			"sparrow.regional.italy.utils.sales_invoice_on_submit",
 			"sparrow.regional.saudi_arabia.utils.create_qr_code",
-			"sparrow.erpnext_integrations.taxjar_integration.create_transaction",
+			"sparrow.sparrow_integrations.taxjar_integration.create_transaction",
 		],
 		"on_cancel": [
 			"sparrow.regional.italy.utils.sales_invoice_on_cancel",
-			"sparrow.erpnext_integrations.taxjar_integration.delete_transaction",
+			"sparrow.sparrow_integrations.taxjar_integration.delete_transaction",
 			"sparrow.regional.saudi_arabia.utils.delete_qr_code_file",
 		],
 		"on_trash": "sparrow.regional.check_deletion_permission",
@@ -374,7 +374,7 @@ doc_events = {
 		"after_insert": "sparrow.crm.doctype.email_campaign.email_campaign.unsubscribe_recipient"
 	},
 	("Quotation", "Sales Order", "Sales Invoice"): {
-		"validate": ["sparrow.erpnext_integrations.taxjar_integration.set_sales_tax"]
+		"validate": ["sparrow.sparrow_integrations.taxjar_integration.set_sales_tax"]
 	},
 	"Company": {"on_trash": ["sparrow.regional.saudi_arabia.utils.delete_vat_settings_for_company"]},
 	"Integration Request": {
@@ -416,7 +416,7 @@ scheduler_events = {
 		"sparrow.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts",
 	],
 	"hourly": [
-		"sparrow.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
+		"sparrow.sparrow_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
 		"sparrow.projects.doctype.project.project.project_status_update_reminder",
 		"sparrow.projects.doctype.project.project.hourly_reminder",
 		"sparrow.projects.doctype.project.project.collect_project_status",

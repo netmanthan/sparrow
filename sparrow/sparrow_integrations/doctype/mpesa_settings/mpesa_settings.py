@@ -125,7 +125,7 @@ def generate_stk_push(**kwargs):
 	try:
 		callback_url = (
 			get_request_site_address(True)
-			+ "/api/method/sparrow.erpnext_integrations.doctype.mpesa_settings.mpesa_settings.verify_transaction"
+			+ "/api/method/sparrow.sparrow_integrations.doctype.mpesa_settings.mpesa_settings.verify_transaction"
 		)
 
 		mpesa_settings = frappe.get_doc("Mpesa Settings", args.payment_gateway[6:])
@@ -265,7 +265,7 @@ def get_account_balance(request_payload):
 
 		callback_url = (
 			get_request_site_address(True)
-			+ "/api/method/sparrow.erpnext_integrations.doctype.mpesa_settings.mpesa_settings.process_balance_info"
+			+ "/api/method/sparrow.sparrow_integrations.doctype.mpesa_settings.mpesa_settings.process_balance_info"
 		)
 
 		response = connector.get_balance(
