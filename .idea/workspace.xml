@@ -5,33 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b0504a-4896-4c83-aa42-f46832717871" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/attributions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/accounts/doctype/bank/bank.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/doctype/bank/bank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/financial_statements/financial_statements.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/accounts/onboarding_step/financial_statements/financial_statements.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/buying/onboarding_step/create_your_first_purchase_order/create_your_first_purchase_order.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/buying/onboarding_step/create_your_first_purchase_order/create_your_first_purchase_order.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/hooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/manufacturing/onboarding_step/explore_manufacturing_settings/explore_manufacturing_settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/manufacturing/onboarding_step/explore_manufacturing_settings/explore_manufacturing_settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/patches/v13_0/custom_fields_for_taxjar_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/patches/v13_0/custom_fields_for_taxjar_integration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/setup/onboarding_step/company_set_up/company_set_up.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/setup/onboarding_step/company_set_up/company_set_up.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/setup/onboarding_step/data_import/data_import.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/setup/onboarding_step/data_import/data_import.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/mpesa_settings/mpesa_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/mpesa_settings/mpesa_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/plaid_settings/plaid_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/quickbooks_migrator/quickbooks_migrator.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/quickbooks_migrator/quickbooks_migrator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/tally_migration/tally_migration.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/tally_migration/tally_migration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/doctype/woocommerce_settings/woocommerce_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/exotel_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/exotel_integration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/sparrow_integrations/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/sparrow_integrations/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/stock/onboarding_step/create_a_warehouse/create_a_warehouse.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/stock/onboarding_step/create_a_warehouse/create_a_warehouse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/stock/onboarding_step/stock_settings/stock_settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/stock/onboarding_step/stock_settings/stock_settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/stock/onboarding_step/view_warehouses/view_warehouses.json" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/stock/onboarding_step/view_warehouses/view_warehouses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/templates/includes/footer/footer_powered.html" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/templates/includes/footer/footer_powered.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow/tests/test_exotel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/tests/test_exotel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/af.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/af.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ar.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/bg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/bg.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/bn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/bn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/bs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/bs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/cs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/cs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/da.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/de.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/de.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/el.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/el.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/es.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/et.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/et.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/fr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/fr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/gu.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/gu.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/he.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/he.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/hr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/hu.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/hu.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/id.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/id.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/it.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/it.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ku.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ku.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/lo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/lo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/lt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/lt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/lv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/lv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/nl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/nl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/no.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/no.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/pl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/pl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ps.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ps.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/pt-BR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/pt-BR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/pt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/pt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ro.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ro.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ru.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ru.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/rw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/rw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/sk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/sk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/sl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/sl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/sq.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/sq.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/sr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/sr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/sv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/sv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/sw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/sw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ta.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/te.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/te.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/th.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/th.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/tr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/tr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/uk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/uk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/ur.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/ur.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/uz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/uz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/vi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/vi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/zh-TW.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/zh-TW.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/zh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/zh.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/translations/zh_tw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/translations/zh_tw.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

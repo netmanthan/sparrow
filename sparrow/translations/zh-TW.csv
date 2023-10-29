@@ -1299,7 +1299,7 @@ DocType: Leave Type,Encashment Threshold Days,封存閾值天數
 ,Final Assessment Grades,最終評估等級
 apps/sparrow/sparrow/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,您的公司要為其設立這個系統的名稱。
 DocType: HR Settings,Include holidays in Total no. of Working Days,包括節假日的總數。工作日
-apps/sparrow/sparrow/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in Sparrow,在ERPNext中設置您的研究所
+apps/sparrow/sparrow/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in Sparrownova Retail ERP,在ERPNext中設置您的研究所
 DocType: Job Applicant,Hold,持有
 apps/sparrow/sparrow/manufacturing/doctype/bom/bom.js +101,Alternate Item,替代項目
 DocType: Project Update,Progress Details,進度細節
