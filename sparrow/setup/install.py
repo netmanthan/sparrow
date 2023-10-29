@@ -158,7 +158,7 @@ def add_standard_navbar_items():
 		{
 			"item_label": "Documentation",
 			"item_type": "Route",
-			"route": "https://docs.sparrow.com/docs/v14/user/manual/en/introduction",
+			"route": "https://docs.sparrownova.com/docs/v1/user/manual/en/introduction",
 			"is_standard": 1,
 		},
 		{
