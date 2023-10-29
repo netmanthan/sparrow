@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b0504a-4896-4c83-aa42-f46832717871" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/patches/v13_0/update_docs_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/patches/v13_0/update_docs_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/setup/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/setup/install.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
